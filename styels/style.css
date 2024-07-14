@@ -1,0 +1,411 @@
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+}
+
+  *{  
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    
+
+  }
+         
+
+  
+main{
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 600px;
+   
+    
+   
+  
+
+}    
+
+.banner-container {
+     max-width: 1400px;
+    min-height: 600px; 
+
+    margin: 0 auto;
+    margin-top: 80px;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+img {
+     padding-left: 595px; 
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 200px; 
+}
+
+.banner-content p {
+    padding-top: 30px;
+}
+
+.btn {
+    margin-left: 20px auto;
+    padding: 20px 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 15px;
+    margin-left: 650px;
+}
+
+ 
+  /* another section */
+  
+  .box2 {
+    height: 1000px;
+    width: 90%;
+   margin: 0 auto;
+   background-color: rgba(13, 19, 33, 0.02);
+    
+
+   
+   display: flex;
+   flex-direction: column;
+   
+   justify-content: center;
+   text-align: center;
+   margin:0 auto;
+  }
+
+  .box2 p{
+    margin-bottom: 20px;
+  }
+
+
+  .boxes{
+    height: 80%;
+    width: 90%;
+    
+    
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: rgba(13, 19, 33, 0.02);
+    
+
+    
+  }
+  .box{
+    height: 30%;
+    width: 80%;
+   
+   
+    
+    margin: 0 auto;
+    display: flex;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+    background-color: white;
+    margin-top: 20px;
+    opacity: 5px;
+    
+   
+   
+  
+  }
+
+  .description{
+    
+    
+    margin: 0 auto;
+    width: 50%;
+    text-align: left;
+padding: 20px;
+  
+  }
+
+  
+
+
+
+  .image{
+   width: 40%;
+   background-image: url(../assets/Layer_1.png);
+   /* text-overflow: ellipsis;
+   /* overflow: hidden; */
+   background-repeat: no-repeat;
+   padding: 5px;
+   
+  }
+  .image-2{
+    width: 40%;
+    background-image: url(../assets/Group\ 3.png);
+    
+    background-repeat: no-repeat;
+    padding: 5px;
+    
+   }
+   .image-3{
+    width: 40%;
+    background-image: url(../assets/Group\ 4.png);
+    padding: 5px;
+    
+    background-repeat: no-repeat;
+    
+   }
+    
+     
+    
+ 
+    .button{
+      padding: 7px 20px;
+      border: solid b;
+     
+
+    }
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+ 
+  
+
+
+  /* another sector */
+  .third-sector{
+    margin-top: 20px;
+    height: 600px;
+    
+    text-align: center;
+    
+ }
+ 
+   
+    
+ 
+ .my-inspir p{
+  margin-top: 20px;
+
+    color: gray;
+    
+ }
+.youtube{
+
+margin-top: 50px;
+margin-bottom: 50px;
+ 
+}
+iframe{
+    width: 1000px;
+    height: 400px;
+}
+
+/* my targetss */
+.current-target{
+  height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+
+
+}
+.current-des{
+  margin-left: 100px;
+
+   text-align: center
+   justify;
+
+}
+.current-t{
+
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+.current-p{
+color: gray;
+margin: 20px;
+
+}
+
+
+
+.current-container {
+  height: 60%;
+  width: 90%;
+  display: flex;
+   
+    margin: 0 auto;
+  
+
+  }
+  
+  .curr-1 {
+    width: 30%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 10px; 
+  
+     background-color:  rgba(255, 76, 30, 0.05);  
+  }
+  .curr-2 {
+    width: 30%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 10px; 
+    
+     background-color:  rgba(0, 76, 232, 0.05);  
+  }
+  .curr-3 {
+    width: 30%;
+    height: 70%;
+    margin: 0 auto;
+    border-radius: 10px; 
+    
+    
+     background-color:  rgba(255, 223, 0, 0.05);  
+  }
+  
+  .curr-img1 {
+    height: 30%;
+    width: 20%;
+    margin-top: 20px;
+    
+    text-align: center;
+    
+    background-image: url(../assets/css.png);
+    background-repeat: no-repeat;
+    
+    
+  
+  }
+  .curr-img2{
+    height: 30%;
+    width: 20%;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url(../assets/html.png);
+
+  }
+  .curr-img3{
+    height: 30%;
+    width: 20%;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image: url(../assets/js.png);
+
+  }
+
+
+
+
+
+  .cards{
+    justify-content: end;
+    height: 40%;
+    text-align: start;
+    padding: 10px;
+    
+
+
+  }
+  
+  
+  .box-description {
+    color: rgb(13, 19, 33);
+    
+  }
+
+  .foot-1{
+ background-image: url(../assets/handshake.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+border-radius: 15px;
+text-align: center;
+justify-content: center; 
+
+
+
+
+height: 300px;
+width: 90%;
+margin: 0 auto;
+  }
+  .foot-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    
+  }
+  .foot-1 h2{
+    font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+color: aliceblue;
+  }
+  .foot-1 p{
+    color: white;
+    margin-bottom: 20px;
+  }  
+  
+  
+.input{
+  
+  
+  
+  
+ 
+}
+.butn{
+  width: 60px;
+  height: 28px;
+background-color: white;
+border-radius: 5px;
+color: black;
+
+font-weight: 600;
+
+
+ 
+}
+.fild{
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+
+
+}
+.last{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+  
+  
+  
